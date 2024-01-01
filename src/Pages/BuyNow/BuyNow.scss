@@ -1,0 +1,239 @@
+.buy-now-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .product-details {
+      display: flex;
+      align-items: center; 
+      box-sizing: border-box;
+      padding: 20px;
+      height: 20vmax;
+      width: 100%;
+      justify-content: space-around;
+
+  
+      img {
+        border-radius: 8px;
+        margin-right: 20px;
+        border: 1px solid red;
+        height: 18vmax;
+        width: 28vw;
+        background-position: cover;
+      }
+  
+      .details {  
+        height: 18vmax;
+        width: 28vw;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: space-evenly;
+        
+        h2 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+        p {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  
+
+
+    .buy-now-button {
+      width: auto;
+      padding: 10px 20px;
+      background-color: #ffd230;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .button-container{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.quantity-selection {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+input[type="number"] {
+  width: 50px;
+  height: 100%;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"]::-webkit-input-placeholder {
+  color: #999;
+}
+
+input[type="number"]:-moz-placeholder {
+  color: #999;
+}
+
+input[type="number"]::-moz-placeholder {
+  color: #999;
+}
+
+input[type="number"]:-ms-input-placeholder {
+  color: #999;
+}
+
+.quantity-button {
+  width: 30px;
+  height: 100%;
+  font-size: 25px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.quantity-button:focus {
+  outline: none;
+}
+
+.quantity-button:hover {
+  background-color: #ccc;
+}
+
+.quantity-button:disabled {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+}
+#minus-btn{
+  border-radius: 7px 0px 0px 7px;
+}
+#plus-btn{
+  border-radius: 0px  7px 7px 0px;
+}
+.assurance-div{
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  height: 10vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: small;
+}
+.assurance-box{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+
+  >svg{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #ffd230;
+  }
+}
+.review-rating{
+  height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+ 
+  }
+  .head{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #ffd230;
+}.review-rating {
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+.head h1 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  font-size: 24px;
+  color: #FFD700;
+  margin-right: 5px;
+}
+
+.rating {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment {
+  font-size: 16px;
+  color: #555;
+}
+
+.reviews{
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  height: 100%;
+}
+.similar-products{
+  border: 1px solid;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
