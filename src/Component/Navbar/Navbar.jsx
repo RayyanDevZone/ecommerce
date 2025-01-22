@@ -9,7 +9,7 @@ const Navbar = () => {
   //   navigate('/cart');
   // };
   // const goToWishlist = () => {
-  //   navigate('/wishlist');
+  //   navigate('/wishlist'); 
   // };
 
   return (

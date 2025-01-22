@@ -24,10 +24,10 @@ const Payment = () => {
               Add Card <AiOutlinePlusCircle />
             </h3>
             <div className="card-png">
-              <img src={png1} />
-              <img src={png2} />
-              <img src={png3} />
-              <img src={png4} />
+              <img src={png1} alt=""/>
+              <img src={png2} alt=""/>
+              <img src={png3} alt=""/>
+              <img src={png4} alt=""/>
             </div>
           </div>
           <div className="card-head">
