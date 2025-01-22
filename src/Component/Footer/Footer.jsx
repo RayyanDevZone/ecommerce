@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer-section'>
-        <h4>About Us</h4>
+        <h4>About Us</h4> 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Quisque euismod libero ut ligula.
