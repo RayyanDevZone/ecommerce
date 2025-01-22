@@ -4,8 +4,13 @@
     background-color:black;
     color:#FFD230;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-between;
     font-weight:500 ;
     align-items: center;
     margin: 0%;
+    padding:0px 25px;
+}
+p{
+    font-size: 12px;
 }
